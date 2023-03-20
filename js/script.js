@@ -33,15 +33,17 @@ const saveToDo = (text) => {
 
     toDoList.appendChild(toDo);
 
-    toDoInput.Value="";
+    toDoInput.value="";
+    toDoInput.focus();
 }
 
 
 // Eventos
 toDoForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    const inputValue = toDoInput.Value
-
+    
+    const inputValue = toDoInput.value;
+    
     if (inputValue) {
         saveToDo(inputValue);
     }
