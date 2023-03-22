@@ -59,5 +59,6 @@ document.addEventListener ("click", (e) => {
     if (targetEl.classList.contains("remove-to_do")) {
         parentEl.remove();
     }
+    
 })
 
