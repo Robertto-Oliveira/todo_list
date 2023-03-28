@@ -15,7 +15,6 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    
     <div class="to_do-container">
       <header>
         <h1>Minha To_Do List</h1>
@@ -29,7 +28,7 @@
           </button>
         </div>
       </form>
-      <form id="edit-form" class="">
+      <form id="edit-form" class="hide">
         <p>Editar tarefa:</p>
         <div class="form-control">
           <input type="text" id="edit-input" placeholder="Edite sua tarefa" />
@@ -40,7 +39,6 @@
           <button type="button" id="cancel-edit-btn">Cancelar</button>
       </form>
       <div id="toolbar">
-
         <div id="search">
           <h4>Pesquisar:</h4>
           <form>
@@ -50,7 +48,6 @@
             </button>
           </form>
         </div>
-
         <div id="filter">
           <h4>Filtrar:</h4>
           <select aria-label="filter" id="filter-select">
@@ -60,10 +57,8 @@
           </select>
         </div>
       </div>
-
       <div id="to_do-list">
         <div class="to_do done">
-
           <h3>Estou fazendo alguma coisa...</h3>
           <button type="button" class="finish-to_do">
             <i class="fa-solid fa-check"></i>
@@ -86,10 +81,8 @@
           <button type="button" class="remove-to_do">
             <i class="fa-solid fa-xmark"></i>
           </button>
-
         </div>
       </div>
     </div>
-    
   </body>
 </html>
